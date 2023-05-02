@@ -3,12 +3,12 @@ This problem involves a number of tables with a number of cubes on it ( stacked 
  the user chooses the number of tables and cubes
 to explain this problem : 
 imagine that you have three tables , each with a different number of cubes stacked on it
-the goal of this problem is to move all the cubes from a table to another.
+the goal of this problem is to move all the cubes from a table to another.  
 the rules are :
 - You can only move the top cube from any table. 
 - Only one cube can be moved at a time.
 
- "`[[4,3,2,1],[],[]]`" this means we have 4 cubes in the first table 
+ "`[[4,3,2,1],[],[]]`" this means we have 4 cubes in the first table   
  in the code below , we want to move all 6 cubes that are on the first table to third table , the output code will print the states traversed and the path to the solution , here is an instance of this problem :
  ```java
  public static void main(String[] args) {
