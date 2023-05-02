@@ -1,4 +1,14 @@
 # Traversing-graphs-BFS-DFS-CubesProblem-
+This problem involves a number of tables with a number of cubes on it ( stacked on each other ) 
+ the user chooses the number of tables and cubes
+to explain this problem : 
+imagine that you have three tables , each with a different number of cubes stacked on it
+the goal of this problem is to move all the cubes from a table to another .
+the rules are :
+You can only move the top cube from any table.
+Only one cube can be moved at a time.
+
+
 Bread First Search 
 ```java
 public void RechercheLargeur ( Noeud nDepart, Noeud nFinal ) {
